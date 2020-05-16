@@ -479,3 +479,9 @@ java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
 2020-05-16 17:00:53,780 2552   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat May 16 17:00:52 CST 2020]; parent: Root WebApplicationContext
 2020-05-16 17:00:53,908 2680   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat May 16 17:00:52 CST 2020]; parent: Root WebApplicationContext
 2020-05-16 17:00:54,101 2873   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1106 ms
+2020-05-16 17:14:24,758 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-05-16 17:14:25,793 1035   [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-05-16 17:14:25,859 1101   [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-05-16 17:14:28,865 4107   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext initialized in 4104 ms
+2020-05-16 17:14:28,912 4154   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+2020-05-16 17:14:29,693 4935   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - Completed initialization in 781 ms
